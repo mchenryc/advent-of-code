@@ -7,17 +7,17 @@
 */
 
 // const puzzleInput = document.body.innerText;
-// const puzzleInput = `
-// nop +0
-// acc +1
-// jmp +4
-// acc +3
-// jmp -3
-// acc -99
-// acc +1
-// jmp -4
-// acc +6
-// `
+const puzzleInput = `
+nop +0
+acc +1
+jmp +4
+acc +3
+jmp -3
+acc -99
+acc +1
+jmp -4
+acc +6
+`
 
 const input = puzzleInput
   .split('\n')
